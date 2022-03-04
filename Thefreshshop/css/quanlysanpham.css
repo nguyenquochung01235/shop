@@ -1,0 +1,40 @@
+.item{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fillter_item{
+  position: fixed;
+  /* width: 23%; */
+  /* border: 1px solid red; */
+  float: left;
+  background-color: white;
+}
+.all-item-list{
+  margin-left: 10px;
+  width: 80%;
+  float: right;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  
+}
+
+.search-item{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-item form{
+  position: absolute;
+  right: 5px;
+}
+.search-item button{
+  margin-left: 5px;
+}

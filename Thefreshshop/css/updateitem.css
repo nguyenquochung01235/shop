@@ -1,0 +1,39 @@
+.chitiet{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fillter_item{
+  position: fixed;
+  /* width: 23%; */
+  /* border: 1px solid red; */
+  float: left;
+  background-color: white;
+}
+.crud-item{
+  margin-left: 10px;
+  width: 80%;
+  float: right;
+  background-color: white;
+  position: absolute;
+  right: 0;
+}
+#form-chitiet{
+  padding: 10px;
+}
+
+.img-item {
+  display: flex;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 8px;
+  justify-content: space-around;
+}
+
+.img-item img{
+  width: 200px;
+  border-radius: 5px;
+}
+

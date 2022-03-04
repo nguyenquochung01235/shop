@@ -1,0 +1,13 @@
+#form_search_order .form-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.form-group #searchOrder{
+  width: 50%;
+  margin-left: 30px;
+  margin-right: 30px;
+}

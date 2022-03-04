@@ -1,0 +1,21 @@
+.cart{
+  color: #fd7e14;
+  font-size: 15px;
+  animation: cart 1s;
+}
+
+
+@keyframes cart {
+  0%   {
+    font-size: 15px;
+  }
+  50%   {
+    font-size: 17px;
+  }
+  100%   {
+    font-size: 15px;
+  }
+
+  
+
+}

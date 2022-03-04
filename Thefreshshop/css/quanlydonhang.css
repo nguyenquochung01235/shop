@@ -1,0 +1,12 @@
+.filter{
+  width: 1112px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter button{
+  height: 60px;
+  font-size: 120%;
+  width: 180px;
+  color: white;
+}

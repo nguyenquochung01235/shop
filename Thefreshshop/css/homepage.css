@@ -1,0 +1,239 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+.body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.container{
+  margin: 0 auto;
+  height: 150vh;
+  /* animation: mymove 1s; */
+}
+
+.header{
+  max-width: 1112px;
+  margin: 0 auto;
+} 
+
+.cart{
+  color: #fd7e14;
+  font-size: 15px;
+}
+
+
+.content{
+  margin-top: 80px;
+ 
+}
+
+.advertisement{
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  margin: 0 auto;
+}
+.intro_shop{
+  margin-left: 15px;
+  width: 50%;
+  float: right;
+}
+
+ .intro_shop_top {
+  padding-bottom: 6px;
+}
+.intro_shop_top img, .intro_shop_bottom img{
+  height: 135px;
+  width: 100%;
+}
+
+.intro_img{
+  width: 50%;
+}
+
+.title_item p{
+  padding: 0;
+}
+
+
+.item{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fillter_item{
+  width: 23%;
+  /* border: 1px solid red; */
+  float: left;
+}
+
+.all-item-list{
+  margin-left: 100px;
+  width: 100%;
+  float: right;
+}
+
+.col{
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  height: fit-content;
+}
+
+
+
+#hot-icon{
+  width: 50px;
+  position: absolute;
+  right: 0;
+}
+
+
+.col img{
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.col:hover{
+  transform: scale(1.1);
+
+}
+
+
+.col strong,p{
+  padding-left: 10px;
+  margin-bottom:0 ;
+}
+
+.buy_item{
+  display: flex;
+  font-size: 11px;
+  justify-content: space-around;
+  align-items: center;
+  margin:10px 0px;
+}
+
+.buy_item button{
+  background-color: #ffff;
+  padding: 0 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  transition: all 0.5s;
+  margin-left: 5px;
+}
+
+.buy_item button:hover{
+
+  background-color: rgb(242, 135, 64);
+  color: white;
+  padding: 0 5px;
+  border: 1px solid #ffffff;
+}
+
+
+.col a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.list-group-item{
+  padding: 8px 12px;
+}
+
+.footer-infor{
+ background-image: url('../img/thefreshshop.com.gif');
+ background-size: cover;
+ background-position: center;
+max-width: 1112px;
+height: 250px;
+}
+
+@keyframes mymove {
+  0%   {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
